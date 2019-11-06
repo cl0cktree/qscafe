@@ -1,0 +1,35 @@
+
+
+/* 갤러리형 탭메뉴 */
+ul.xans-board-listheader { text-align:right; margin:0 0 10px; }
+ul.xans-board-listheader li { display:inline; }
+
+/* list */
+.xans-board-listpackage { margin:0 0 10px; }
+.xans-board-listpackage .boardList { clear:both; }
+.xans-board-listpackage .boardList table {  color:#fff; font-size:12px; line-height:140%;}
+.xans-board-listpackage table th { padding:12px 0 10px;  background:#131d27; font-weight:normal; }
+.xans-board-listpackage table td { padding:6px 3px 4px; height:32px;  text-align:center; vertical-align:middle; }
+.xans-board-listpackage table th:last-child,
+.xans-board-listpackage table td:last-child { border-right:0; }
+.xans-board-listpackage table a,
+.xans-board-listpackage table a:hover { color:#000; }
+.xans-board-listpackage table .subject { word-break:break-all; text-align:left; padding-left:8px; }
+.xans-board-listpackage table .subject img { vertical-align:middle; margin:0 1px; }
+.xans-board-listpackage table tbody.notice .subject,
+.xans-board-listpackage table tbody.fixed .subject { font-weight:bold; }
+.xans-board-listpackage table .txtLess { color:#939393; font-size:11px; }
+.xans-board-listpackage table .comment { color:#008bcc; font-weight:normal;}
+.xans-board-listpackage table .thumb { width:134px; overflow:hidden; }
+.xans-board-listpackage table .thumb img { width:46px; float:left; }
+.xans-board-listpackage table .thumb span { float:left; width:80px; padding:0 0 0 8px; text-align:left; }
+.xans-board-listpackage table input[type=radio],
+.xans-board-listpackage table input[type=checkbox] { width:13px; height:13px; vertical-align:-2px; *vertical-align:2px; margin:0 2px 0 0; }
+.xans-board-buttonlist { padding:15px 20px 15px 0; background-color:rgba(0,0,0,0);text-align:right; }
+
+/* 상품후기 아코디언형 */
+.xans-board-notice #content_view td { padding:9px 10px 20px; background:rgba(0,0,0,0); text-align:left; }
+.xans-board-list #content_view td { padding:9px 10px 20px; background:rgba(0,0,0,0); text-align:left; word-break:break-all; white-space:pre-wrap; }
+
+/* 게시글 없음, 검색결과없음 */
+.xans-board-listpackage .boardListEmpty { padding:20px 0; text-align:center; background-color:rgba(0,0,0,0);}
